@@ -5,25 +5,24 @@
     <title>Blaxcut - Modèle de site Barbershop</title>
     <link rel="icon" href="images/icon.png" type="image/gif" sizes="16x16">
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" >
-    <meta content="Blaxcut - Modèle de site Barbershop" name="description" >
-    <meta content="" name="keywords" >
-    <meta content="" name="author" >
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Blaxcut - Modèle de site Barbershop" name="description">
+    <meta content="" name="keywords">
+    <meta content="" name="author">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap">
-    <link href="css/mdb.min.css" rel="stylesheet" type="text/css" id="mdb" >
-    <link href="css/plugins.css" rel="stylesheet" type="text/css" >
-    <link href="css/style.css" rel="stylesheet" type="text/css" >
-    <link href="css/coloring.css" rel="stylesheet" type="text/css" >
-    <link id="colors" href="css/colors/scheme-01.css" rel="stylesheet" type="text/css" >
+    <link href="css/mdb.min.css" rel="stylesheet" type="text/css" id="mdb">
+    <link href="css/plugins.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/coloring.css" rel="stylesheet" type="text/css">
+    <link id="colors" href="css/colors/scheme-01.css" rel="stylesheet" type="text/css">
 </head>
 
 <body class="dark-scheme">
     <div id="wrapper">
         <div id="de-loader"></div>
-        <header class="transparent">
-            <!-- header content unchanged -->
-        </header>
-
+        <!-- header start -->
+        <div id="header-placeholder"></div>
+        <!-- header end -->
         <div class="no-bottom no-top" id="content">
             <div id="top"></div>
 
@@ -74,33 +73,40 @@
                                 <p class="lead text-center">
                                     Si vous avez des questions, n'hésitez pas à nous envoyer un message.
                                 </p>
-                                <form name="contactForm" id="contact_form" class="form-border position-relative z1000" method="post" action="#">
+                                <form name="contactForm" id="contact_form" class="form-border position-relative z1000"
+                                    method="post" action="#">
                                     <div class="row">
                                         <div class="col-lg-12 mb10">
                                             <div class="field-set">
-                                                <input type="text" name="Name" id="name" class="form-control" placeholder="Votre nom" required>
+                                                <input type="text" name="Name" id="name" class="form-control"
+                                                    placeholder="Votre nom" required>
                                             </div>
                                         </div>
                                         <div class="col-lg-12 mb10">
                                             <div class="field-set">
-                                                <input type="text" name="Email" id="email" class="form-control" placeholder="Votre email" required>
+                                                <input type="text" name="Email" id="email" class="form-control"
+                                                    placeholder="Votre email" required>
                                             </div>
                                         </div>
                                         <div class="col-lg-12 mb10">
                                             <div class="field-set">
-                                                <input type="text" name="phone" id="phone" class="form-control" placeholder="Votre téléphone" required>
+                                                <input type="text" name="phone" id="phone" class="form-control"
+                                                    placeholder="Votre téléphone" required>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="field-set mb20">
-                                        <textarea name="message" id="message" class="form-control" placeholder="Votre message" required></textarea>
+                                        <textarea name="message" id="message" class="form-control"
+                                            placeholder="Votre message" required></textarea>
                                     </div>
-                                    <div class="g-recaptcha" data-sitekey="copy-your-site-key-here"></div>
+                               
                                     <div id='submit' class="mt20">
-                                        <input type='submit' id='send_message' value='Envoyer le message' class="btn-main">
+                                        <input type='submit' id='send_message' value='Envoyer le message'
+                                            class="btn-main">
                                     </div>
                                     <div id="success_message" class='success'>
-                                        Votre message a été envoyé avec succès. Actualisez cette page si vous souhaitez envoyer un autre message.
+                                        Votre message a été envoyé avec succès. Actualisez cette page si vous souhaitez
+                                        envoyer un autre message.
                                     </div>
                                     <div id="error_message" class='error'>
                                         Désolé, une erreur est survenue lors de l'envoi du formulaire.
@@ -135,32 +141,18 @@
 
         <a href="#" id="back-to-top"></a>
 
-        <footer>
-            <div class="container">
-                <div class="row g-4">
-                    <div class="col-lg-4 text-lg-start text-center">
-                        <div class="social-icons">
-                            <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-                            <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
-                            <a href="#"><i class="fa fa-linkedin fa-lg"></i></a>
-                            <a href="#"><i class="fa fa-pinterest fa-lg"></i></a>
-                            <a href="#"><i class="fa fa-rss fa-lg"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 text-lg-center text-center">
-                        <img src="images/logo.png" class="" alt="">
-                    </div>
-                    <div class="col-lg-4 text-lg-end text-center">
-                        Copyright 2023 - Blaxcut par Designesia
-                    </div>
-                </div>
-            </div>
-        </footer>
+      <!-- footer start -->
+<div id="footer-placeholder"></div>
+<!-- footer end -->
+
     </div>
 
     <script src="js/plugins.js"></script>
     <script src="js/designesia.js"></script>
     <script src='https://www.google.com/recaptcha/api.js' async defer></script>
     <script src="form.js"></script>
+    <script src="js/header-loader.js"></script>
+    <script src="js/footer-loader.js"></script>
 </body>
+
 </html>
