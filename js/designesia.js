@@ -968,6 +968,11 @@
      /* --------------------------------------------------
       * add arrow for mobile menu
       * --------------------------------------------------*/
+
+
+
+
+     
      function menu_arrow() {
          // mainmenu create span
          jQuery('#mainmenu li a').each(function() {
