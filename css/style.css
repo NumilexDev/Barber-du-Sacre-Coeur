@@ -1498,7 +1498,7 @@ footer {
 }
 
 :root {
-  --primary-color: #cf814d;
+  --primary-color: #F47646;
 }
 
 .footer-top {
@@ -14726,7 +14726,7 @@ a.read_more i {
 }
 
 #selector .opt.tc4 {
-  background: #fba51a;
+  background: #F47646;
 }
 
 #selector .opt.tc5 {
@@ -17312,6 +17312,9 @@ img {
   }
 }
 
+ header .logo-main {
+    width: 100px;
+  }
 @media only screen and (max-width: 992px) {
 
   header .logo-main {
@@ -17320,6 +17323,7 @@ img {
 
   header .logo-init {
     display: none;
+
   }
 
   header .logo-mobile {
