@@ -1910,6 +1910,19 @@
             itemSelector: '.grid-item'
         });
         grid_gallery();
+        // Set active menu item based on current page
+        var currentPage = window.location.pathname.split('/').pop();
+        if(currentPage === "" || currentPage === undefined) { currentPage = "index.html"; }
+        $('#mainmenu a').each(function() {
+          var linkPage = $(this).attr('href');
+          if(linkPage === currentPage) {
+            $(this).addClass('active');
+            $(this).parent('li').addClass('active');
+          } else {
+            $(this).removeClass('active');
+            $(this).parent('li').removeClass('active');
+          }
+        });
     });
     
  })(jQuery);

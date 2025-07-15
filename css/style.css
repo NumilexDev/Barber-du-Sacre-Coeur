@@ -747,7 +747,9 @@ header .header-col.mid .social-icons {
   padding-right: 0px;
 }
 
+/* Couleur de survol et active pour les liens du menu principal */
 #mainmenu a {
+  transition: color 0.2s;
   position: relative;
   display: inline-block;
   padding: 30px 0;
@@ -755,6 +757,11 @@ header .header-col.mid .social-icons {
   color: #ffffff;
   text-align: center;
   outline: none;
+}
+#mainmenu a:hover,
+#mainmenu li.active > a,
+#mainmenu a.active {
+  color: #cf814d !important;
 }
 
 #mainmenu p {
