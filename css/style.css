@@ -1,3 +1,4 @@
+
 /* ================================================== */
 
 /* Blaxcut
@@ -16049,7 +16050,7 @@ blockquote.q-big .d-quote-by {
 
 .d-sch-table .d-content {
   font-family: var(--title-font);
-  font-size: 32px;
+  font-size: 25px;
   line-height: 42px;
   letter-spacing: .2em;
   margin-top: 10px;
@@ -18206,7 +18207,7 @@ img {
   }
 
   .d-sch-table .d-content {
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .c-item_title {
