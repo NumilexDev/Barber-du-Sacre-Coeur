@@ -347,7 +347,7 @@ html.disable--interaction.show--consent body {
   flex-direction: row-reverse;
 }
 #cc-main .cm__btn {
-  background: #f9b809;
+  background: #F47646;
   border: none;
   border-radius: 0;
   color: var(--cc-btn-primary-color);
@@ -359,7 +359,7 @@ html.disable--interaction.show--consent body {
   text-transform: uppercase;
 }
 #cc-main .cm__btn:hover {
-  background: #d6a41b;
+  background: #F47646;
   color: var(--cc-btn-primary-hover-color);
 }
 #cc-main .cm__btn--secondary {
