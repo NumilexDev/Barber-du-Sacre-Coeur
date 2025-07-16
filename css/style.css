@@ -1,4 +1,3 @@
-
 /* ================================================== */
 
 /* Blaxcut
@@ -173,6 +172,51 @@ a.a-underline:hover span {
 
 /* ================================================== */
 
+/* Force navbar background and text color to avoid cookieconsent conflicts */
+header, header.header-s1, header.header-bg, header.transparent, header.autoshow, header.autoshow.scrollOn {
+  background: #101010 !important;
+  color: #fff !important;
+}
+/* cookies 
+================================================== */
+.my-cookies-btn img {
+  max-width: 100% !important;
+  filter: brightness(0) invert(1); /* icône blanche sur fond foncé */
+}
+
+.my-cookies-btn {
+  max-width: 5rem;
+  margin-left: 20px;
+  height: 50px;
+  width: 50px;
+  background-color: #F47646;
+  border: none;
+  position: fixed;
+  bottom: 20px;
+  z-index: 1000;
+}
+
+.my-cookies-btn:hover {
+  background-color: #cf814d;
+  /* Couleur secondaire/hover du site */
+}
+
+@media only screen and (max-width: 768px) {
+  .my-cookies-btn {
+    height: 10px;
+    width: 9rem;
+    bottom: 0rem;
+    margin-left: 7px;
+  }
+
+  .my-cookies-btn img {
+    max-width: 80%; /* Adjust image size inside the button */
+    display: none;
+  }
+}
+
+
+*/
 header {
   width: 100%;
   position: absolute;
@@ -10681,6 +10725,7 @@ a:hover,
   font-size: 20px;
   font-weight: 700;
   height: 0;
+  
   color: rgba(255, 255, 255, 0);
   letter-spacing: 0;
 }
@@ -15683,6 +15728,7 @@ a.read_more i {
 }
 
 .carousel-indicators [data-mdb-target] {
+
   background-color: var(--primary-color);
   border-radius: 100%;
   -moz-border-radius: 100%;

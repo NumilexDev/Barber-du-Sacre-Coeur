@@ -17,6 +17,8 @@
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="css/coloring.css" rel="stylesheet" type="text/css">
     <link id="colors" href="css/colors/scheme-01.css" rel="stylesheet" type="text/css">
+    <link id="colors" href="css/cookieconsent.css" rel="stylesheet">
+
 </head>
 
 <body class="dark-scheme">
@@ -104,7 +106,7 @@
                                             <dt><span>Homme - Lissage Protéiné, shampoing, coupe et coiffage</span></dt>
                                             <dd>75€</dd>
                                         </dl>
-                                     
+
                                     </div>
                                 </div>
                                 <div class="d-deco"></div>
@@ -126,7 +128,7 @@
                                             <dt><span>Taille de barbe</span></dt>
                                             <dd>10€</dd>
                                         </dl>
-                                       
+
                                     </div>
                                 </div>
                                 <div class="d-deco"></div>
@@ -151,7 +153,7 @@
                                             <dt><span>Soin du visage</span></dt>
                                             <dd>15€</dd>
                                         </dl>
-                                       
+
                                     </div>
                                 </div>
                                 <div class="d-deco"></div>
@@ -165,11 +167,18 @@
         <!-- footer start -->
         <div id="footer-placeholder"></div>
         <!-- footer end -->
+        <!-- cookies banner -->
+        <button class="my-cookies-btn" id="cookie-btn" data-cc="show-preferencesModal"
+            aria-label="cookies consentement">
+            <img class="my-cookies-img" src="images/cookies.svg" alt="Gérer le consentement" />
+        </button>
     </div>
 
     <script src="js/plugins.js"></script>
     <script src="js/designesia.js"></script>
     <script src="js/footer-loader.js"></script>
+    <script type="module" src="js/cookieconsent-config.js"></script>
+
 </body>
 
 </html>
