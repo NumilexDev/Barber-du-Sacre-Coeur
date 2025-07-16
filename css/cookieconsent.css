@@ -359,7 +359,7 @@ html.disable--interaction.show--consent body {
   text-transform: uppercase;
 }
 #cc-main .cm__btn:hover {
-  background: #F47646;
+  background: #804b37;
   color: var(--cc-btn-primary-hover-color);
 }
 #cc-main .cm__btn--secondary {
